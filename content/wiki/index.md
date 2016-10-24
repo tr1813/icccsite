@@ -7,10 +7,10 @@ Welcome to **ICCC's Useful Stuff** Wiki!
 **Organisation**
 
 *   [Running UK Trips](Organisation/RunningTripsUK/)
-    *   [Things to Bring](Organisation/RunningTripsUK/Things To Bring.md)
+    *   [Things to Bring](Organisation/RunningTripsUK/ThingsToBring.md)
     *   [Things to Buy](Organisation/RunningTripsUK/ThingsToBuy.md)
     *   [Superstore Locations](Organisation/RunningTripsUK/SuperStoresLocations.md)
-*   [Cave Information](Organisation/Cave%20Information.md)
+*   [Cave Information](Organisation/CaveInformation.md)
 *   [Hut Information](Organisation/HutInformation.md)
 *   [Weather](Organisation/Weather.md)
 *   [Union](Organisation/Union.md)

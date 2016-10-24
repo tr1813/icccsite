@@ -100,7 +100,7 @@ def parse_wiki_pages(generator):
     # Begin with parsing main wiki page
     parsedfile = readers.read_file(root, "index.md")
     metadata = parsedfile.metadata
-    metadata["filepath"] = ""
+    metadata["filepath"] = "index.md"
     metadata = namedtuple('metadata', [x for x in metadata.keys()])(
         *[metadata[x] for x in metadata.keys()])
     content = parsedfile.content
@@ -169,7 +169,7 @@ def generate_wiki_pages(generator, writer):
     # Write the pages!
     template = generator.get_template('wikiarticle')
     for page in wiki_list:
-        filename = 'wiki' + page.article.metadata.filepath.replace('.md', '.html')
+        filename = os.path.join('wiki', page.article.metadata.filepath.replace('.md', '.html'))
         content = page.article.content
         content = re.sub(r'\.md', '.html', content)
         metadata = page.article.metadata
